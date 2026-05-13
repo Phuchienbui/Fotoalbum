@@ -70,8 +70,9 @@ footer {
 .gallery__button {
     background-color: var(--color-accent);
     border-radius: 20px;
-    padding: 2px;
+    padding: 4px;
     border: none;
+    overflow: hidden;
 }
 
 .gallery__button:hover {
@@ -81,6 +82,13 @@ footer {
 .gallery__button:focus {
     background-color: var(--color-focus);
     outline: none;
+}
+
+.gallery__pic{
+    max-width: 150px;
+   aspect-ratio: 1/1;
+   object-fit: cover;
+   border-radius: 20px;
 }
 
 #mainTitle {
@@ -147,8 +155,6 @@ dialog {
     margin-bottom: var(--space-dialog-margin-gap);
     object-fit: cover;
     border: none;
-
-
 }
 
 .dialog__wrapper-footer {
