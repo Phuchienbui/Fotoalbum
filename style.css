@@ -5,6 +5,7 @@ h1 {
     font-family: 'Figtree';
     font-style: normal;
     font-weight: 800;
+    text-align: center;
 }
 
 p {
@@ -61,6 +62,7 @@ header {
     padding-inline: var(--space-padding-sides);
     display: flex;
     justify-content: center;
+    align-items: center;
 
 
 }
