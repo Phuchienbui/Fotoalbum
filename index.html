@@ -3,7 +3,6 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="Content-Security-Policy" content="default-src 'self'">
     <title>Fotoalbum</title>
     <link rel="icon" type="image/x-icon" href="./svg/fav-icon.svg">
     <link rel="stylesheet" href="./resets.css">
@@ -16,6 +15,7 @@
     <header>
         <div class="header__wrapper">
             <img src="./svg/logo.svg" alt="Icon Fotogram">
+            <img src="img\Property 1=alaska-810433_1280.jpg.png" alt="">
         </div>
         
     </header>
@@ -24,10 +24,7 @@
         <h1 id="mainTitle">Your personal photo album</h1>
         <section class="main__wrapper"  aria-label="Bildergalerie">
             <ul id="gallery">
-                <li><button aria-label="Alasta groß anzeigen" data-index="0" id="Btn-0">
-                    <img src="" alt="">
-                </button></li>
-                <li><button></button></li>
+               
             </ul> 
         </section>
     </main>
@@ -39,7 +36,7 @@
                 <img class="dialogimgs" src="./svg/closebtn.svg" alt="">
             </button>
         </div>
-        <img src="./img/Property 1=alaska-810433_1280.jpg.png" alt="ein vereinster See mit Bergen im Hintergrund">
+        <img id = "dialogimgs" src="" alt="">
         <div class="dialog__wrapper-footer">
             <button id="dialogLeftBtn" class="dialogBtns" type="button" aria-label="vorheriges Bild">
                 <img src="./svg/btn-left.svg" alt="">
