@@ -46,6 +46,23 @@ function updateDialog(index) {
     dialogItems.src = images[currentCounter].src;
     dialogItems.alt = images[currentCounter].alt;
     dialogTitle.textContent = images[currentCounter].title;
+    pCounter.textContent = `${currentCounter+1}/${(images.length)}`
+}
+
+function swipeLeft(){
+    currentCounter--;
+    if(currentCounter <0){
+        currentCounter = images.length-1;
+    }
+    updateDialog(currentCounter);
+}
+
+function swipeRight(){
+    currentCounter++;
+    if(currentCounter >= images.length){
+        currentCounter = 0;
+    }
+    updateDialog(currentCounter);
 }
 
 function openDialog(index) {
@@ -56,3 +73,4 @@ function openDialog(index) {
 function dialogClose() {
     dialog.close();
 }
+

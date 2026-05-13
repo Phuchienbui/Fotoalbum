@@ -13,7 +13,7 @@
 </head>
 
 <body onload="renderGallery()">
-
+    <a class="skip-link" href="#mainID">Skip Link</a>
     <header>
         <div class="header__wrapper">
             <img src="./svg/logo.svg" alt="Icon Fotogram">
@@ -30,14 +30,14 @@
                 </ul>
             </section>
         </div>
-
+            
     </main>
 
     <dialog aria-labelledby="dialogTitle">
         <div class="dialog__wrapper">
             <div class="dialog__wrapper-header">
                 <h2 id="dialogTitle" class="dialogTitle"></h2>
-                <button id="dialogCloseBtn" class="dialogBtns" type="button" aria-label="Fenster Schließen">
+                <button onclick="dialogClose()" id="dialogCloseBtn" class="dialogBtns" type="button" aria-label="Fenster Schließen">
                     <img class="dialogimgs" src="./svg/closebtn.svg" alt="">
                 </button>
             </div>
@@ -46,11 +46,11 @@
             </div>
 
             <div class="dialog__wrapper-footer">
-                <button id="dialogLeftBtn" class="dialog-FooterBtns" type="button" aria-label="vorheriges Bild">
+                <button onclick="swipeLeft()" id="dialogLeftBtn" class="dialog-FooterBtns" type="button" aria-label="vorheriges Bild">
                     <img src="./svg/btn-left.svg" alt="">
                 </button>
-                <p id="counter">1/2</p>
-                <button id="dialogRightBtn" class="dialog-FooterBtns" type="button" aria-label="nächstes Bild">
+                <p id="counter"></p>
+                <button onclick="swipeRight()" id="dialogRightBtn" class="dialog-FooterBtns" type="button" aria-label="nächstes Bild">
                     <img src="./svg/btn-right.svg" alt="">
                 </button>
             </div>
