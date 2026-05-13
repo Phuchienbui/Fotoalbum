@@ -1,0 +1,156 @@
+h1 {
+    color: white;
+    font-size: var(--fs-h1);
+    padding-inline: var(--space-padding-sides);
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 800;
+}
+
+p {
+    color: white;
+    font-size: var(--fs-body);
+}
+
+
+body {
+    background-color: var(--farbe-primary);
+}
+
+footer {
+    background-color: var(--farbe-accent);
+    width: 100%;
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+}
+
+.footer__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#footer_fs {
+    color: #99ACB3;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+}
+
+header {
+    background-color: var(--farbe-accent);
+    width: 100%;
+    margin-bottom: var(--space-margin);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-inline: var(--space-padding-sides);
+    display: flex;
+    justify-content: center;
+
+
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: var(--space-gap);
+    margin-bottom: var(--space-margin);
+
+}
+
+.main__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1440px;
+    padding-inline: var(--space-padding-sides);
+    margin-bottom: var(--space-margin);
+}
+
+.gallery__button {
+    border-radius: 25px;
+    overflow: hidden;
+    border: solid 1px var(--farbe-accent);
+    background-color: var(--farbe-primary);
+}
+
+.gallery__pic {
+    width: 150px;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (min-width:768px) {
+    .header__wrapper {
+        justify-content: flex-start;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* figtree-regular - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/figtree-v9-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* figtree-800 - latin */
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 800;
+    src: url('./fonts/figtree-v9-latin-800.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* figtree-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Figtree';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./fonts/figtree-v9-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}

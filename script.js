@@ -33,7 +33,7 @@ function renderGallery() {
             `
             <li class="gallery_item">
                     <button onclick="openDialog(${i})" class="gallery__button" data-index="${i}">
-                        <img src="${images[i].src}" alt="${images[i].alt}">
+                        <img class= "gallery__pic" src="${images[i].src}" alt="${images[i].alt}">
                     </button>
                 </li>
         `
@@ -52,4 +52,7 @@ function openDialog(index) {
     updateDialog(index);
     dialog.showModal();
 }
-renderGallery();
+
+function dialogClose() {
+    dialog.close();
+}

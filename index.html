@@ -10,18 +10,17 @@
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js" defer ></script>
 </head>
-<body>
-    <a href="#mainID">Skip zum Hauptinhalt</a>
+<body onload="renderGallery()">
+
     <header>
         <div class="header__wrapper">
             <img src="./svg/logo.svg" alt="Icon Fotogram">
-            <img src="img\Property 1=alaska-810433_1280.jpg.png" alt="">
         </div>
         
     </header>
     
     <main id="mainID" tabindex="-1">
-        <h1 id="mainTitle">Your personal photo album</h1>
+        <h1 id="mainTitle">Your personal photo&nbsp;album</h1>
         <section class="main__wrapper"  aria-label="Bildergalerie">
             <ul id="gallery">
                
@@ -52,7 +51,7 @@
     <footer>
         <div class="footer__wrapper">
             <img src="./svg/DVA-logo.svg" alt="Das Loge der Developer Akademie">
-            <p>&copy;2023 Developer Akademie GmbH</p>
+            <p id="footer_fs">&copy;2023 Developer Akademie GmbH</p>
         </div>
     </footer>
 </body>
