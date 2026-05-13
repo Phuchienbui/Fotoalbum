@@ -1,11 +1,11 @@
 const images =
     [
-        { src: "img/Property 1=alaska-810433_1280.jpg.png", alt: "Schneebedeckte Landschaft in Alaska", title: "Alaska" },
-        { src: "img/Property 1=anime-8788959_1280.jpg.png", alt: "animiertes Stadteil Tokyos", title: "Animiertes Tokyo" },
-        { src: "img/Property 1=atmosphere-8752835_1280.png.png", alt: "dunkle Wolken am Himmel", title: "Gewitterwolken" },
-        { src: "img/Property 1=blue-tit-8521052_1280.jpg.png", alt: "Blaumeise auf einem Ast", title: "Blaumeise" },
-        { src: "img/Property 1=hurricane-92968_1280.jpg.png", alt: "Hurrikan in der Atmosphere", title: "Hurrikan" },
-        { src: "img/Property 1=lake-2896379_1280.jpg.png", alt: "See in der einer Eislandschaft", title: "See" },
+        { src: "Fotoalbum\imgPixabay/ahmetyuksek-swan-close-up-9767494_1920.jpg", alt: "Schwan mit Jungtier auf dem Wasser", title: "Schwanenfamilie auf dem See" },
+        { src: "Fotoalbum\imgPixabay\babelphotography-village-279013.jpg", alt: "Küstenort mit bunten Häusern auf einer Klippe am Meer", title: "Küstenstadt bei Abendlicht" },
+        { src: "Fotoalbum\imgPixabay\couleur-dandelion-10245975_1920.jpg", alt: "Löwenzahn mit Samen im Gegenlicht", title: "Löwenzahn im Wind" },
+        { src: "Fotoalbum\imgPixabay\daniil_kondrashin-autumn-9912502_1920.jpg", alt: "Frau mit roten Haaren", title: "Porträt einer Frau" },
+        { src: "Fotoalbum\imgPixabay\fotos-art-fine-art-9978188_1920.jpg", alt: "Nahaufnahme von Kirschblüten", title: "Kirschblüte im Frühling" },
+        { src: "Fotoalbum\imgPixabay\gom_su_cuong_duyen-ceramic-vase-10211596_1920.jpg", alt: "Porträt einer Frau neben einer Blumenvase", title: "Porträt mit Blumenarrangement" },
         { src: "img/Property 1=moorente-8783210_1280.jpg.png", alt: "Eine Moorente auf dem Wasser", title: "Moorente" },
         { src: "img/Property 1=sea-2563389_1280.jpg.png", alt: "Silhouette einer Person auf einem Felsen im Meer", title: "Der Mann auf dem Fels" },
         { src: "img/Property 1=snow-bunting-6781122_1280.jpg.png", alt: "Eine Schneeammer im Wintergefieder sitzt auf einem dunklen Küstenfelsen", title: "Schneeammer" },
