@@ -1,17 +1,18 @@
 const images =
     [
-        { src: "./imgPixabay/ahmetyuksek-swan-close-up-9767494_1920.jpg", alt: "Schwan mit Jungtier auf dem Wasser", title: "Schwanenfamilie auf dem See" },
-        { src: "./imgPixabay/babelphotography-village-279013.jpg", alt: "Küstenort mit bunten Häusern auf einer Klippe am Meer", title: "Küstenstadt bei Abendlicht" },
-        { src: "./imgPixabay/couleur-dandelion-10245975_1920.jpg", alt: "Löwenzahn mit Samen im Gegenlicht", title: "Löwenzahn im Wind" },
-        { src: "./imgPixabay/daniil_kondrashin-autumn-9912502_1920.jpg", alt: "Frau mit roten Haaren", title: "Porträt einer Frau" },
-        { src: "./imgPixabay/fotos-art-fine-art-9978188_1920.jpg", alt: "Nahaufnahme von Kirschblüten", title: "Kirschblüte im Frühling" },
-        { src: "./imgPixabay/gom_su_cuong_duyen-ceramic-vase-10211596_1920.jpg", alt: "Porträt einer Frau neben einer Blumenvase", title: "Porträt mit Blumenarrangement" },
-        { src: "./imgPixabay/gruendercoach-robin-10205230_1920.jpg", alt: "Ein Rotkehlchen sitzt auf einem Ast mit Tannen-Nadeln", title: "Das ist ein Rotkehlchen" },
-        { src: "./imgPixabay/guvo59-berry-tarts-9735441_1920.jpg", alt: "Törtchen mit Beeren und Puderzucker", title: "Beeren-Törtchen mit Puderzuckert" },
-        { src: "./imgPixabay/kyraxys-depth-10210903_1920.png", alt: "Silhouette eines Tauchers unter Wasser im Lichtstrahl", title: "Tauchgang ins Licht" },
-        { src: "./imgPixabay/storme22k-fennec-fox-9846388_1920.jpg", alt: "Schlafender Fuchs auf einem Stein", title: "Ein Moment der Ruhe" },
-        { src: "./imgPixabay/thibaultlamtran-vinyl-9617456_1920.jpg", alt: "Schallplatte auf einem Plattenspieler", title: "Vinyl auf dem Plattenspieler" },
-        { src: "./imgPixabay/veronika_andrews-anna-10217636_1920.jpg", alt: "Kolibri im Flug mit ausgebreiteten Flügeln", title: "Leichter Flug" }
+        { src: "./imgkombri/ahmetyuksek-swan-close-up-9767494_1920.jpg", alt: "Schwan mit Jungtier auf dem Wasser", title: "Schwanenfamilie auf dem See" },
+        { src: "./imgkombri/husien_pro-iced-coffee-10260387_1920.jpg", alt: "Eiskaffee mit Milchschichten und Schaumkrone in einem Glas", title: "Erfrischender Iced Latte Macchiato" },
+        { src: "./imgkombri/couleur-dandelion-10245975_1920.jpg", alt: "Löwenzahn mit Samen im Gegenlicht", title: "Löwenzahn im Wind" },
+        { src: "./imgkombri/daniil_kondrashin-autumn-9912502_1920.jpg", alt: "Frau mit roten Haaren", title: "Porträt einer Frau" },
+        { src: "./imgkombri/fotos-art-fine-art-9978188_1920.jpg", alt: "Nahaufnahme von Kirschblüten", title: "Kirschblüte im Frühling" },
+        { src: "./imgkombri/gom_su_cuong_duyen-ceramic-vase-10211596_1920.jpg", alt: "Porträt einer Frau neben einer Blumenvase", title: "Porträt mit Blumenarrangement" },
+        { src: "./imgkombri/gruendercoach-robin-10205230_1920.jpg", alt: "Ein Rotkehlchen sitzt auf einem Ast mit Tannen-Nadeln", title: "Das ist ein Rotkehlchen" },
+        { src: "./imgkombri/guvo59-berry-tarts-9735441_1920.jpg", alt: "Törtchen mit Beeren und Puderzucker", title: "Beeren-Törtchen mit Puderzuckert" },
+        { src: "./imgkombri/kyraxys-depth-10210903_1920.jpg", alt: "Silhouette eines Tauchers unter Wasser im Lichtstrahl", title: "Tauchgang ins Licht" },
+        { src: "./imgkombri/storme22k-fennec-fox-9846388_1920.jpg", alt: "Schlafender Fuchs auf einem Stein", title: "Ein Moment der Ruhe" },
+        { src: "./imgkombri/thibaultlamtran-vinyl-9617456_1920.jpg", alt: "Schallplatte auf einem Plattenspieler", title: "Vinyl auf dem Plattenspieler" },
+        { src: "./imgkombri/veronika_andrews-anna-10217636_1920.jpg", alt: "Kolibri im Flug mit ausgebreiteten Flügeln", title: "Leichter Flug" },
+        { src: "./imgkombri/tehzeebkazmii-highland-cattle-10239253_1920.jpg", alt: "Porträt eines braunen schottischen Hochlandrinds mit langen Hörnern und zotteligem Fell auf einer grünen Wiese", title: "Majestätisches Hochlandrind" },
     ]
 
 

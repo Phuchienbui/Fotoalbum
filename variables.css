@@ -5,6 +5,7 @@
     --color-dialog: rgb(14, 30, 46);
     --color-dialog-footer-btn: rgb(50, 20, 30, 0.1);
     --color-dialog-footer-btn-hover: rgb(50, 20, 30, 0.8);
+    --color-dialog-clsbtn:rgb(34, 34, 94);
     --color-copy-rights: #99ACB3;
     --color-hover-dialog-btn: rgb(0, 0, 0.5);
     --color-focus: yellow;
@@ -13,8 +14,8 @@
     --fs-body: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem);
     --fs-dialog: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
 
-    --width-dialog:clamp(21.875rem, 18.0398rem + 17.0455vw, 31.25rem);
-    --heigh-dialog: clamp(31.25rem, 23.5795rem + 34.0909vw, 50rem);
+    --width-dialog:clamp(17.5rem, 13.5714rem + 19.6429vw, 31.25rem);
+    --heigh-dialog: clamp(25rem, 17.8571rem + 35.7143vw, 50rem);
 
     --space-padding-sides: clamp(1rem, -1.1307rem + 10.6535vw, 8.4375rem);
     --space-padding-block: clamp(1.25rem, 0.9643rem + 1.4286vw, 2.25rem);
@@ -23,9 +24,9 @@
 
     --space-dialog-padding-sides: clamp(1.25rem, 0.4643rem + 3.9286vw, 4rem);
     --space-dialog-padding-sides-buttons: clamp(2.5625rem, -0.5179rem + 15.4018vw, 13.3438rem);
-    --space-dialog-margin-gap: clamp(2.25rem, 2.0357rem + 1.0714vw, 3rem);
-    --space-dialog-header-margin-top-mobil: clamp(2.5rem, 2.0909rem + 1.8182vw, 3.5rem);
-
+    --space-dialog-margin-gap: clamp(1.25rem, 0.75rem + 2.5vw, 3rem);
+    --space-dialog-header-margin-top-mobil: clamp(2.5rem, 2.3571rem + 0.7143vw, 3rem);
+    --space-dialog-header-padding-top: clamp(0.625rem, 0.2679rem + 1.7857vw, 1.875rem);
 }
 
 

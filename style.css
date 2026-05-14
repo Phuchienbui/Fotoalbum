@@ -27,7 +27,7 @@ header {
 header,
 main {
     margin-bottom: var(--space-margin);
-    
+
 }
 
 .main__wrapper,
@@ -76,6 +76,7 @@ footer {
     padding: 4px;
     border: none;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .gallery__button:hover {
@@ -92,8 +93,6 @@ footer {
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 20px;
-    
-    
 }
 
 #mainTitle {
@@ -118,7 +117,6 @@ dialog {
     max-width: var(--width-dialog);
     border: none;
     border-radius: 50px;
-
 }
 
 .dialog::backdrop {
@@ -128,7 +126,6 @@ dialog {
 .dialog__wrapper {
     margin: 0 auto;
     max-width: 700px;
-    
 }
 
 #dialogTitle {
@@ -143,19 +140,29 @@ dialog {
     display: flex;
     justify-content: space-between;
     padding-inline: var(--space-dialog-padding-sides);
-    margin-top: var(--space-dialog-margin-gap);
-    margin-bottom: var(--space-dialog-header-margin-top-mobil);
+    margin-top: var(--space-dialog-header-margin-top-mobil);
+    margin-bottom: var(--space-dialog-margin-gap);
     align-items: center;
-    gap:5px
-
+    gap: 5px;
+    padding-top: var(--space-dialog-header-padding-top);
 }
 
 #dialogCloseBtn {
     background-color: var(--color-accent);
-    border: none;
+    border: solid 1px white;
+    border-radius: 5px;
     flex-shrink: 0;
     width: 32px;
     height: 32px;
+    cursor: pointer;
+}
+
+#dialogCloseBtn:hover {
+    background-color: var(--color-dialog-clsbtn)
+}
+
+#dialogCloseBtn:focus {
+    outline-color: var(--color-focus);
 }
 
 .dialog__main-pic {
@@ -167,7 +174,7 @@ dialog {
     border: none;
 }
 
-#dialogimgs{
+#dialogimgs {
     aspect-ratio: 1/1;
     object-fit: cover;
 }
@@ -195,15 +202,20 @@ dialog {
     border-radius: 50%;
     border: none;
     flex-shrink: 0;
+    cursor: pointer;
 }
 
 .dialog-FooterBtns:hover {
     background-color: var(--color-dialog-footer-btn-hover)
 }
 
+.dialog-FooterBtns:focus {
+    outline-color: var(--color-focus);
+}
+
 
 @media (max-width: 680px) {
-    
+
     .dialog__wrapper {
         position: relative;
         width: 100%;
@@ -215,6 +227,7 @@ dialog {
         right: 20px;
         left: auto;
     }
+
 }
 
 
