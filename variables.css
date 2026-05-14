@@ -2,44 +2,30 @@
     --color-primary: #06171E;
     --color-accent: #09212A;
     --color-gallery-btn: rgb(143, 222, 235);
-    --color-dialog-footer-btn:rgb(50, 20, 30, 0.1);
-   --color-dialog-footer-btn-hover:rgb(50, 20, 30, 0.8);
+    --color-dialog: rgb(14, 30, 46);
+    --color-dialog-footer-btn: rgb(50, 20, 30, 0.1);
+    --color-dialog-footer-btn-hover: rgb(50, 20, 30, 0.8);
     --color-copy-rights: #99ACB3;
-    --color-hover-dialog-btn:rgb(0, 0, 0.5);
+    --color-hover-dialog-btn: rgb(0, 0, 0.5);
     --color-focus: yellow;
     --fs-h1: clamp(2.5rem, 2.0166rem + 2.4172vw, 4.1875rem);
     --fs-h2: clamp(1.25rem, 1.1786rem + 0.3571vw, 1.5rem);
     --fs-body: clamp(0.75rem, 0.6786rem + 0.3571vw, 1rem);
-    --fs-dialog:clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
-   
-    --space-padding-sides:  clamp(1rem, -1.1307rem + 10.6535vw, 8.4375rem);
+    --fs-dialog: clamp(1rem, 0.8571rem + 0.7143vw, 1.5rem);
+
+    --width-dialog:clamp(21.875rem, 18.0398rem + 17.0455vw, 31.25rem);
+    --heigh-dialog: clamp(31.25rem, 23.5795rem + 34.0909vw, 50rem);
+
+    --space-padding-sides: clamp(1rem, -1.1307rem + 10.6535vw, 8.4375rem);
     --space-padding-block: clamp(1.25rem, 0.9643rem + 1.4286vw, 2.25rem);
     --space-margin: clamp(2.5rem, 0.3571rem + 10.7143vw, 10rem);
     --space-gap: clamp(3.5rem, 1.6429rem + 9.2857vw, 10rem);
 
-    --space-dialog-padding-sides:clamp(1.25rem, 0.4643rem + 3.9286vw, 4rem);
-    --space-dialog-padding-sides-buttons:clamp(2.5625rem, -0.5179rem + 15.4018vw, 13.3438rem);
-    --space-dialog-margin-gap: 3rem;
-    --space-dialog-header-margin-top-mobil: 4.5rem;
+    --space-dialog-padding-sides: clamp(1.25rem, 0.4643rem + 3.9286vw, 4rem);
+    --space-dialog-padding-sides-buttons: clamp(2.5625rem, -0.5179rem + 15.4018vw, 13.3438rem);
+    --space-dialog-margin-gap: clamp(2.25rem, 2.0357rem + 1.0714vw, 3rem);
+    --space-dialog-header-margin-top-mobil: clamp(2.5rem, 2.0909rem + 1.8182vw, 3.5rem);
 
 }
 
-
-body {
-    min-height: 100vh;
-    scroll-behavior: smooth;
-}
-
-header {
-    width: 100%;
-}
-
-main {
-    flex: 1;
-    width: 100%;
-}
-
-footer {
-    width: 100%;
-}
 

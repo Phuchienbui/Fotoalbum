@@ -7,7 +7,6 @@ const images =
         { src: "./imgPixabay/fotos-art-fine-art-9978188_1920.jpg", alt: "Nahaufnahme von Kirschblüten", title: "Kirschblüte im Frühling" },
         { src: "./imgPixabay/gom_su_cuong_duyen-ceramic-vase-10211596_1920.jpg", alt: "Porträt einer Frau neben einer Blumenvase", title: "Porträt mit Blumenarrangement" },
         { src: "./imgPixabay/gruendercoach-robin-10205230_1920.jpg", alt: "Ein Rotkehlchen sitzt auf einem Ast mit Tannen-Nadeln", title: "Das ist ein Rotkehlchen" },
-        { src: "./imgPixabay/thibaultlamtran-vinyl-9617456_1920.jpg", alt: "Schallplatte auf einem Plattenspieler", title: "Vinyl auf dem Plattenspieler" },
         { src: "./imgPixabay/guvo59-berry-tarts-9735441_1920.jpg", alt: "Törtchen mit Beeren und Puderzucker", title: "Beeren-Törtchen mit Puderzuckert" },
         { src: "./imgPixabay/kyraxys-depth-10210903_1920.png", alt: "Silhouette eines Tauchers unter Wasser im Lichtstrahl", title: "Tauchgang ins Licht" },
         { src: "./imgPixabay/storme22k-fennec-fox-9846388_1920.jpg", alt: "Schlafender Fuchs auf einem Stein", title: "Ein Moment der Ruhe" },

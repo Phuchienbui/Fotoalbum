@@ -15,7 +15,7 @@ body {
 
 .skip-link:focus {
     top: 0;
-    outline-color:  var(--color-focus);
+    outline-color: var(--color-focus);
 }
 
 footer,
@@ -27,6 +27,7 @@ header {
 header,
 main {
     margin-bottom: var(--space-margin);
+    
 }
 
 .main__wrapper,
@@ -38,6 +39,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
 
 .header__wrapper,
@@ -46,11 +48,12 @@ main {
 }
 
 .footer__wrapper {
-    gap: 15px;
+    gap: 10px;
 }
 
 .main__wrapper {
     gap: var(--space-gap);
+
 }
 
 footer {
@@ -84,11 +87,13 @@ footer {
     outline: none;
 }
 
-.gallery__pic{
+.gallery__pic {
     max-width: 150px;
-   aspect-ratio: 1/1;
-   object-fit: cover;
-   border-radius: 20px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+    border-radius: 20px;
+    
+    
 }
 
 #mainTitle {
@@ -107,10 +112,10 @@ footer {
 
 /* Modal-Style*/
 dialog {
-    background-color: var(--color-accent);
+    background-color: var(--color-dialog);
     border-radius: 20px;
     margin: auto;
-    max-width: 600px;
+    max-width: var(--width-dialog);
     border: none;
     border-radius: 50px;
 
@@ -123,6 +128,7 @@ dialog {
 .dialog__wrapper {
     margin: 0 auto;
     max-width: 700px;
+    
 }
 
 #dialogTitle {
@@ -137,15 +143,19 @@ dialog {
     display: flex;
     justify-content: space-between;
     padding-inline: var(--space-dialog-padding-sides);
-    margin-top: var(--space-dialog-header-margin-top-mobil);
-    margin-bottom: var(--space-dialog-margin-gap);
-    flex-wrap: wrap-reverse
+    margin-top: var(--space-dialog-margin-gap);
+    margin-bottom: var(--space-dialog-header-margin-top-mobil);
+    align-items: center;
+    gap:5px
+
 }
 
 #dialogCloseBtn {
     background-color: var(--color-accent);
     border: none;
     flex-shrink: 0;
+    width: 32px;
+    height: 32px;
 }
 
 .dialog__main-pic {
@@ -155,6 +165,11 @@ dialog {
     margin-bottom: var(--space-dialog-margin-gap);
     object-fit: cover;
     border: none;
+}
+
+#dialogimgs{
+    aspect-ratio: 1/1;
+    object-fit: cover;
 }
 
 .dialog__wrapper-footer {
@@ -186,21 +201,22 @@ dialog {
     background-color: var(--color-dialog-footer-btn-hover)
 }
 
-@media (max-width:680px) {
-    @media (max-width: 680px) {
-        .dialog__wrapper {
-            position: relative;
-            width: 100%;
-        }
 
-        #dialogCloseBtn {
-            position: absolute;
-            top: -30px;
-            right: 20px;
-            left: auto;
-        }
+@media (max-width: 680px) {
+    
+    .dialog__wrapper {
+        position: relative;
+        width: 100%;
+    }
+
+    #dialogCloseBtn {
+        position: absolute;
+        top: -10px;
+        right: 20px;
+        left: auto;
     }
 }
+
 
 
 
