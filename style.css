@@ -211,6 +211,19 @@ dialog {
 .dialog-FooterBtns:focus {
     outline-color: var(--color-focus);
 }
+
+.gallery__button{
+    position: relative;
+    display: block;
+}
+
+.heart-icon{
+    position: relative;
+    left: 5px;
+    bottom: 25px;
+    pointer-events:none;
+    z-index:10;
+}
 @media (max-width: 680px) {
 
     .dialog__wrapper {

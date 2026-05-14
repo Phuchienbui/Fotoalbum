@@ -35,7 +35,9 @@ function renderGallery() {
             <li class="gallery_item">
                     <button onclick="openDialog(${i})" class="gallery__button" data-index="${i}">
                         <img class= "gallery__pic" src="${images[i].src}" alt="${images[i].alt}">
+                        <img class= "heart-icon" src="./svg/favorite.svg" alt="aria-hidden=true">
                     </button>
+                    
                 </li>
         `
     }
