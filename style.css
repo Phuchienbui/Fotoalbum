@@ -92,6 +92,7 @@ footer {
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 20px;
+    display: block;
 }
 
 #mainTitle {
@@ -212,18 +213,19 @@ dialog {
     outline-color: var(--color-focus);
 }
 
-.gallery__button{
+.gallery_item {
     position: relative;
     display: block;
 }
 
-.heart-icon{
-    position: relative;
-    left: 5px;
-    bottom: 25px;
-    pointer-events:none;
-    z-index:10;
+.heart-icon {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    z-index: 10;
 }
+
 @media (max-width: 680px) {
 
     .dialog__wrapper {

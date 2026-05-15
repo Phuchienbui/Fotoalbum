@@ -55,7 +55,7 @@ function renderGallery() {
             <li class="gallery_item">
                     <button onclick="clickEvents(${i})" class="gallery__button" data-index="${i}">
                         <img class= "gallery__pic" src="${images[i].src}" alt="${images[i].alt}">
-                        <div class= "heart-icon"><img class= "heart-icon" src="./svg/favorite.svg" alt="aria-hidden=true"></div>
+                        <img class= "heart-icon" src="./svg/favorite.svg" alt="aria-hidden=true">
                     </button>
                     
                 </li>
