@@ -24,8 +24,28 @@ const dialogLeftBtn = document.getElementById('dialogLeftBtn');
 const dialogRightBtn = document.getElementById('dialogRightBtn');
 const pCounter = document.getElementById('counter');
 const dialogItems = document.getElementById('dialogimgs');
+const heartIcon = document.querySelector(".heart-icon");
 
 let currentCounter = 0;
+let clickTimer = null;
+
+function clickEvents(index) {
+    if (clickTimer===null){
+      clickTimer = setTimeout(()=>{
+            openDialog(index);
+            clickTimer = null;
+    },200);
+    } else{
+        clearTimeout(clickTimer);
+        clickTimer = null;
+        toggleLikeBtn();
+    }
+}
+
+function toggleLikeBtn(){
+    heartIcon.style.backgroundColor = "red";
+}
+
 
 function renderGallery() {
     let galleryHtML = "";
@@ -33,9 +53,9 @@ function renderGallery() {
         galleryHtML +=
             `
             <li class="gallery_item">
-                    <button onclick="openDialog(${i})" class="gallery__button" data-index="${i}">
+                    <button onclick="clickEvents(${i})" class="gallery__button" data-index="${i}">
                         <img class= "gallery__pic" src="${images[i].src}" alt="${images[i].alt}">
-                        <img class= "heart-icon" src="./svg/favorite.svg" alt="aria-hidden=true">
+                        <div class= "heart-icon"><img class= "heart-icon" src="./svg/favorite.svg" alt="aria-hidden=true"></div>
                     </button>
                     
                 </li>
