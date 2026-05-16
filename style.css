@@ -2,7 +2,7 @@ body {
     font-family: 'Figtree';
     font-style: normal;
     font-weight: 400;
-    color: white;
+    color: var(--color-standard);
     background-color: var(--color-primary);
 }
 
@@ -133,7 +133,7 @@ dialog {
     font-style: normal;
     font-weight: 400;
     font-size: var(--fs-h2);
-    color: white;
+    color: var(--color-standard);
 }
 
 .dialog__wrapper-header {
@@ -149,7 +149,7 @@ dialog {
 
 #dialogCloseBtn {
     background-color: var(--color-accent);
-    border: solid 1px white;
+    border: solid 1px var(--color-standard);
     border-radius: 5px;
     flex-shrink: 0;
     width: 32px;
@@ -194,7 +194,7 @@ dialog {
     font-style: normal;
     font-weight: 400;
     font-size: var(--fs-dialog);
-    color: white;
+    color: var(--color-standard);
 }
 
 .dialog-FooterBtns {

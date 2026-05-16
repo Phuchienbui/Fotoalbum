@@ -1,4 +1,5 @@
 :root {
+    --color-standard: white;
     --color-primary: #06171E;
     --color-accent: #09212A;
     --color-gallery-btn: rgb(143, 222, 235);
