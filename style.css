@@ -188,13 +188,21 @@ dialog {
     margin-bottom: var(--space-dialog-margin-gap);
     object-fit: cover;
     border: none;
-   
+}
+
+.dialog__img-container{
+    position: relative;
+    display: inline-flex;
+    border: none;
+    z-index: 100;
 }
 
 #dialogimgs {
     aspect-ratio: 1/1;
     object-fit: cover;
     pointer-events: none;
+    display: block;
+    max-width: 100%;
 }
 #dialogLikeBtn{
     pointer-events: none;
@@ -202,11 +210,16 @@ dialog {
 
 .dialog__main-pic{
     position: relative;
+    pointer-events: none;
 }
-#dialogLikeBtn{
+#dialogLikeBtnImg{
     position: absolute;
     top: 10px;
-    left: 70px;
+    left: 10px;
+    pointer-events: none;
+    width: var(--width-height-hearIcon);
+    height: var(--width-height-hearIcon);
+    z-index: 10;
 }
 #dialogDBlick{
     outline: none;

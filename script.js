@@ -11,7 +11,7 @@ const images =
         { src: "./imgkombri/kyraxys-depth-10210903_1920.jpg", alt: "Silhouette eines Tauchers unter Wasser im Lichtstrahl", title: "Tauchgang ins Licht", liked: false },
         { src: "./imgkombri/storme22k-fennec-fox-9846388_1920.jpg", alt: "Schlafender Fuchs auf einem Stein", title: "Ein Moment der Ruhe", liked: false },
         { src: "./imgkombri/thibaultlamtran-vinyl-9617456_1920.jpg", alt: "Schallplatte auf einem Plattenspieler", title: "Vinyl auf dem Plattenspieler", liked: false },
-        { src: "./imgkombri/veronika_andrews-anna-10217636_1920.jpg", alt: "Kolibri im Flug mit ausgebreiteten Flügeln", title: "Leichter Flug", likedked: false },
+        { src: "./imgkombri/veronika_andrews-anna-10217636_1920.jpg", alt: "Kolibri im Flug mit ausgebreiteten Flügeln", title: "Leichter Flug", liked: false },
         { src: "./imgkombri/tehzeebkazmii-highland-cattle-10239253_1920.jpg", alt: "Porträt eines braunen schottischen Hochlandrinds mit langen Hörnern und zotteligem Fell auf einer grünen Wiese", title: "Majestätisches Hochlandrind", liked: false }
     ];
 
@@ -60,6 +60,34 @@ function toggleLikeBtn(index) {
     }
 }
 
+function toggleLikeBtnDialog() {
+    console.log('A');
+    images[currentCounter].liked = !images[currentCounter].liked;
+    const mainButton = document.getElementById(`Btn-${currentCounter}`);
+    const mainHeart = mainButton.querySelector(".heart-icon");
+
+    if (images[currentCounter].liked) {
+        mainHeart.src = "./svg/favoriteLiked.svg";
+    } else {
+        mainHeart.src = "./svg/favorite.svg";
+    }
+
+    const dialogHeart = document.getElementById('dialogLikeBtnImg');
+    
+    if (images[currentCounter].liked) {
+        dialogHeart.src = "./svg/favoriteLiked.svg";
+        dialogHeart.style.transform = "scale(1.5)";
+        setTimeout(() => {
+            dialogHeart.style.transform = "scale(1)";
+        }, 250);
+    } else {
+        dialogHeart.src = "./svg/favorite.svg";
+        dialogHeart.style.transform = "scale(1)";
+    }
+
+    updateDialog(currentCounter);
+}
+
 function renderGallery() {
     let galleryHtML = "";
     for (let i = 0; i < images.length; i++) {
@@ -85,6 +113,14 @@ function updateDialog(index) {
     dialogItems.alt = images[currentCounter].alt;
     dialogTitle.textContent = images[currentCounter].title;
     pCounter.textContent = `${currentCounter + 1}/${(images.length)}`
+
+    const hearDialog = document.getElementById('dialogLikeBtnImg');
+
+    if (images[currentCounter].liked) {
+        hearDialog.src = "./svg/favoriteLiked.svg";
+    } else {
+        hearDialog.src = "./svg/favorite.svg";
+    }
 }
 
 function swipeLeft() {

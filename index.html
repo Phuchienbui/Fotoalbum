@@ -27,31 +27,37 @@
             <h1 id="mainTitle">Beauty is&nbsp;in everything</h1>
             <section class="main__gallery-wrapper" aria-label="Bildergalerie">
                 <ul Id="gallery">
-                    
+
                 </ul>
             </section>
         </div>
-            
+
     </main>
 
     <dialog closedby="any" aria-labelledby="dialogTitle">
         <div class="dialog__wrapper">
             <div class="dialog__wrapper-header">
                 <h2 id="dialogTitle" class="dialogTitle"></h2>
-                <button onclick="dialogClose()" id="dialogCloseBtn" class="dialogBtns" type="button" aria-label="Fenster Schließen">
+                <button onclick="dialogClose()" id="dialogCloseBtn" class="dialogBtns" type="button"
+                    aria-label="Fenster Schließen">
                     <img class="dialogimgs" src="./svg/closebtn.svg" alt="">
                 </button>
             </div>
             <div class="dialog__main-pic">
-                <img id="dialogimgs" src="" alt="">
+                <button onclick="toggleLikeBtnDialog()" id="dialogLikeBtn" class="dialog__img-container">
+                    <img id="dialogimgs" src="" alt="">
+                    <img id="dialogLikeBtnImg" class="heart-dialog" src="./svg/favorite.svg" alt="" aria-hidden="true">
+                </button>
             </div>
 
             <div class="dialog__wrapper-footer">
-                <button onclick="swipeLeft()" id="dialogLeftBtn" class="dialog-FooterBtns" type="button" aria-label="vorheriges Bild">
+                <button onclick="swipeLeft()" id="dialogLeftBtn" class="dialog-FooterBtns" type="button"
+                    aria-label="vorheriges Bild">
                     <img src="./svg/btn-left.svg" alt="">
                 </button>
                 <p id="counter"></p>
-                <button onclick="swipeRight()" id="dialogRightBtn" class="dialog-FooterBtns" type="button" aria-label="nächstes Bild">
+                <button onclick="swipeRight()" id="dialogRightBtn" class="dialog-FooterBtns" type="button"
+                    aria-label="nächstes Bild">
                     <img src="./svg/btn-right.svg" alt="">
                 </button>
             </div>
@@ -65,4 +71,5 @@
         </div>
     </footer>
 </body>
+
 </html>

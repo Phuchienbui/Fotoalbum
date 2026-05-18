@@ -17,6 +17,7 @@
 
     --width-dialog:clamp(17.5rem, 13.5714rem + 19.6429vw, 31.25rem);
     --heigh-dialog: clamp(25rem, 17.8571rem + 35.7143vw, 50rem);
+    --width-height-hearIcon: clamp(1.25rem, 0.8523rem + 1.0vw, 1.5625rem);
 
     --space-padding-sides: clamp(1rem, -1.1307rem + 10.6535vw, 8.4375rem);
     --space-padding-block: clamp(1.25rem, 0.9643rem + 1.4286vw, 2.25rem);
@@ -28,6 +29,7 @@
     --space-dialog-margin-gap: clamp(1.25rem, 0.75rem + 2.5vw, 3rem);
     --space-dialog-header-margin-top-mobil: clamp(2.5rem, 2.3571rem + 0.7143vw, 3rem);
     --space-dialog-header-padding-top: clamp(1.25rem, 1.0714rem + 0.8929vw, 1.875rem);
+
 }
 
 
