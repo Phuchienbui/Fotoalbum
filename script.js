@@ -50,8 +50,13 @@ function toggleLikeBtn(index) {
 
     if (images[currentCounter].liked) {
         heart.src = "./svg/favoriteLiked.svg";
+        heart.style.transform = "scale(1.5)";
+        setTimeout(() =>{
+            heart.style.transform = "scale(1)";
+        },250)
     } else {
         heart.src = "./svg/favorite.svg";
+        heart.style.transform ="scale(1)";
     }
 }
 
