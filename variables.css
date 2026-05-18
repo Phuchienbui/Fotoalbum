@@ -27,7 +27,7 @@
     --space-dialog-padding-sides-buttons: clamp(2.5625rem, -0.5179rem + 15.4018vw, 13.3438rem);
     --space-dialog-margin-gap: clamp(1.25rem, 0.75rem + 2.5vw, 3rem);
     --space-dialog-header-margin-top-mobil: clamp(2.5rem, 2.3571rem + 0.7143vw, 3rem);
-    --space-dialog-header-padding-top: clamp(0.625rem, 0.2679rem + 1.7857vw, 1.875rem);
+    --space-dialog-header-padding-top: clamp(1.25rem, 1.0714rem + 0.8929vw, 1.875rem);
 }
 
 

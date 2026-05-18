@@ -1,9 +1,23 @@
 body {
+    display: flex;
+    flex-direction: column;
     font-family: 'Figtree';
     font-style: normal;
     font-weight: 400;
     color: var(--color-standard);
     background-color: var(--color-primary);
+}
+
+.visually-hidden{
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+    border: 0;
 }
 
 .skip-link {
@@ -27,6 +41,7 @@ header {
 header,
 main {
     margin-bottom: var(--space-margin);
+    display: flex;
 
 }
 
@@ -59,6 +74,7 @@ footer {
     border-top-left-radius: 15%;
     border-top-right-radius: 15%;
     color: var(--color-copy-rights);
+    margin-top: 50px;
 }
 
 #gallery {
@@ -172,11 +188,29 @@ dialog {
     margin-bottom: var(--space-dialog-margin-gap);
     object-fit: cover;
     border: none;
+   
 }
 
 #dialogimgs {
     aspect-ratio: 1/1;
     object-fit: cover;
+    pointer-events: none;
+}
+#dialogLikeBtn{
+    pointer-events: none;
+}
+
+.dialog__main-pic{
+    position: relative;
+}
+#dialogLikeBtn{
+    position: absolute;
+    top: 10px;
+    left: 70px;
+}
+#dialogDBlick{
+    outline: none;
+    border: none;
 }
 
 .dialog__wrapper-footer {

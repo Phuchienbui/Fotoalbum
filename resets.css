@@ -1,20 +1,26 @@
 * {
-
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: inherit;  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
   font-weight: inherit;
 }
 
-ul, ol {
-  list-style: none;  
+ul,
+ol {
+  list-style: none;
 }
 
 a {
-  text-decoration: none;  
+  text-decoration: none;
   color: inherit;
 }
 
@@ -24,24 +30,24 @@ img {
 }
 
 body {
-    min-height: 100vh;
-    scroll-behavior: smooth;
-    margin: 0;
+  min-height: 100vh;
+  scroll-behavior: smooth;
+
 }
 
 header {
-    width: 100%;
+  width: 100%;
 }
 
 main {
-    flex: 1;
-    width: 100%;
+  flex: 1;
+  width: 100%;
 }
 
 footer {
-    width: 100%;
+  width: 100%;
 }
 
-p{
+p {
   margin: 0;
 }
